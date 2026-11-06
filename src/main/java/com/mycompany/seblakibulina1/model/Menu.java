@@ -12,18 +12,18 @@ public class Menu {
 
     private int id;
     private String nama;
-    private double harga;
+    private int harga; // Berubah jadi int
 
     public Menu() {
     }
 
-    public Menu(int id, String nama, double harga) {
+    public Menu(int id, String nama, int harga) {
         this.id = id;
         this.nama = nama;
         this.harga = harga;
     }
 
-    public Menu(String nama, double harga) {
+    public Menu(String nama, int harga) {
         this.nama = nama;
         this.harga = harga;
     }
@@ -44,12 +44,11 @@ public class Menu {
         this.nama = nama;
     }
 
-    public double getHarga() {
+    public int getHarga() {
         return harga;
-    }
+    } // Berubah jadi int
 
-    public void setHarga(double harga) {
+    public void setHarga(int harga) {
         this.harga = harga;
-    }
-
+    } // Berubah jadi int
 }
