@@ -12,7 +12,7 @@ public class Menu {
 
     private int id;
     private String nama;
-    private int harga; // Berubah jadi int
+    private int harga;
 
     public Menu() {
     }
@@ -46,9 +46,9 @@ public class Menu {
 
     public int getHarga() {
         return harga;
-    } // Berubah jadi int
+    }
 
     public void setHarga(int harga) {
         this.harga = harga;
-    } // Berubah jadi int
+    }
 }

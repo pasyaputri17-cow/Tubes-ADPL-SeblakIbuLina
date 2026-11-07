@@ -17,7 +17,6 @@ public class ResetTabel {
     public static void main(String[] args) {
         try (Connection conn = DBConnection.getConnection(); Statement stmt = conn.createStatement()) {
 
-            // Perintah sakti untuk menghapus semua data & mereset ID ke 1
             stmt.executeUpdate("TRUNCATE TABLE menu");
 
             System.out.println("SUKSES! Tabel menu sudah bersih dan ID kembali ke 1.");
